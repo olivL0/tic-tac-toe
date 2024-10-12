@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-container {
+    border: 5px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    height: fit-content;
+}
+
+.cell {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
